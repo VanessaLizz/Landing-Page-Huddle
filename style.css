@@ -1,0 +1,36 @@
+:root {
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Open Sans";
+}
+
+body {
+    width:100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        hsl(257, 40%, 49%) 40%,
+        hsl(257, 63%, 66%) 60%);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5em;
+    height: 63vh;
+    background-image: url(img/bg-mobile.svg);
+    background-position-y: -2.5vh;
+}
+
+.imagem__logo {
+    width: 30%;
+    margin: 0 10vw;
+}
+
+.imagem__telas {
+    width: 80%;
+    margin: 0 10vw;
+    
+}
