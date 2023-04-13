@@ -1,14 +1,14 @@
 :root {
-    --fonte-principal: "Poppins";
-    --fonte-secundaria: "Open Sans";
+    --fonte-principal:"Poppins";
+    --fonte-secundaria:"Open Sans";
 }
 
 body {
     width:100vw;
-    height: 100vh;
+    height: 120vh;
     background-image: linear-gradient(
-        hsl(257, 40%, 49%) 40%,
-        hsl(257, 63%, 66%) 60%);
+        hsl(257, 45%, 43%) 40%,
+        hsl(257, 70%, 58%) 60%);
         background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,19 +18,65 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    gap: 5em;
+    gap: 3em;
     height: 63vh;
     background-image: url(img/bg-mobile.svg);
     background-position-y: -2.5vh;
+    background-position-x: 0.2vw;
 }
 
 .imagem__logo {
-    width: 30%;
+    width: 32%;
     margin: 0 10vw;
+    padding-top: 2vh;
 }
 
 .imagem__telas {
     width: 80%;
     margin: 0 10vw;
+    padding-bottom: 1em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 1.5em;
+    font-family: var(--fonte-secundaria);
+    color: #FFFFFF;
+    text-align: center;
+    gap: 1em;
+}
+
+.texto__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 19px;
+    padding: 0 2em;
+    line-height: 30px;
     
+}
+
+.texto__descriçao {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 2em;
+    padding: 0 0.2em;
+}
+
+.botao__registro {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+
+.imagem__redes {
+}
+
+.botao__imagem {
+
 }
