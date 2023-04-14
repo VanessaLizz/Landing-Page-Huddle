@@ -5,7 +5,7 @@
 
 body {
     width:100vw;
-    height: 120vh;
+    height: 123vh;
     background-image: linear-gradient(
         hsl(257, 45%, 43%) 40%,
         hsl(257, 70%, 58%) 60%);
@@ -21,8 +21,7 @@ header {
     gap: 3em;
     height: 63vh;
     background-image: url(img/bg-mobile.svg);
-    background-position-y: -2.5vh;
-    background-position-x: 0.2vw;
+    background-position-y: -4.8vh;
 }
 
 .imagem__logo {
@@ -63,20 +62,25 @@ main {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-    margin: 0 2em;
-    padding: 0 0.2em;
+    margin: 0 1.3em;
 }
 
 .botao__registro {
     font-family: var(--fonte-principal);
     font-weight: 400;
-    font-size: 13px;
-    
+    font-size: 11px;
+    border: none;
+    border-radius: 25px;
+    color: hsl(257, 64%, 55%);
+    padding: 0.7em 6em;
+    margin-top: 0.3em;
+}
+
+.linha__imagem {
+    margin-top: 2.5em;
 }
 
 .imagem__redes {
-}
-
-.botao__imagem {
-
+    width: 5vw;
+    padding: 0 0.1em;
 }
