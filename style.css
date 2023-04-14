@@ -5,12 +5,9 @@
 
 body {
     width:100vw;
-    height: 123vh;
     background-image: linear-gradient(
         hsl(257, 45%, 43%) 40%,
         hsl(257, 70%, 58%) 60%);
-        background-repeat: no-repeat;
-    background-size: cover;
 }
 
 header {
@@ -19,21 +16,19 @@ header {
     justify-content: center;
     align-items: start;
     gap: 3em;
-    height: 63vh;
     background-image: url(img/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position-y: -4.8vh;
+    padding: 5vh 10vw;
 }
 
 .imagem__logo {
     width: 32%;
-    margin: 0 10vw;
-    padding-top: 2vh;
 }
 
 .imagem__telas {
-    width: 80%;
-    margin: 0 10vw;
-    padding-bottom: 1em;
+    width: 100%;
 }
 
 main {
@@ -77,7 +72,7 @@ main {
 }
 
 .linha__imagem {
-    margin-top: 2.5em;
+    margin: 2.5em 0 1em 0;
 }
 
 .imagem__redes {
