@@ -79,3 +79,15 @@ main {
     width: 5vw;
     padding: 0 0.1em;
 }
+
+/* versão desktok */
+
+@media screen and (min-width: 1440px){
+    body {
+        display: flex;
+    }
+
+    header {
+        background-image: none;
+    }
+}
