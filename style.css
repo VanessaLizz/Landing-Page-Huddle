@@ -89,12 +89,10 @@ main {
         grid-template-columns: 50% 50%;
         height: 100vh;
         width: 100vw;
-        background-image:url('img/bg-desktop.svg'),
-            linear-gradient(
-            hsl(257, 45%, 43%) 20%,
-            hsl(257, 70%, 58%) 60%);
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url('img/bg-desktop.svg'),
+                          linear-gradient( hsl(257, 45%, 43%) 20%, hsl(257, 70%, 58%) 60%);
+        
+        
     }
 
     header {
@@ -108,7 +106,7 @@ main {
     }
     
     .imagem__telas {
-        width: 50vw;
+        width: 45vw;
     }
 
     main {
@@ -116,8 +114,9 @@ main {
        justify-content: start;
        text-align: start;
        margin: 12rem 3rem 1rem 3rem;
-       padding: 0 3rem;
+       padding: 0 1rem;
        gap: 1rem;
+       width: 72%;
     }
     
     .texto__titulo {
@@ -141,7 +140,8 @@ main {
     }
     
     .linha__imagem {
-        margin: 9rem 0 1rem 20rem;
+        text-align: end;
+        margin-left: 22rem;
     }
     
     .imagem__redes {
