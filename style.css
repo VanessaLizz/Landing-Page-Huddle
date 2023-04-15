@@ -3,6 +3,7 @@
     --fonte-secundaria:"Open Sans";
 }
 
+
 body {
     width:100vw;
     background-image: linear-gradient(
@@ -82,12 +83,69 @@ main {
 
 /* versão desktok */
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
     body {
-        display: flex;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 100vh;
+        width: 100vw;
+        background-image:url('img/bg-desktop.svg'),
+            linear-gradient(
+            hsl(257, 45%, 43%) 20%,
+            hsl(257, 70%, 58%) 60%);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     header {
         background-image: none;
+        gap: 4rem;
+        padding: 0 0 0 4rem;
+    }
+
+    .imagem__logo {
+        width: 12vw;
+    }
+    
+    .imagem__telas {
+        width: 50vw;
+    }
+
+    main {
+       display: flex;
+       justify-content: start;
+       text-align: start;
+       margin: 12rem 3rem 1rem 3rem;
+       padding: 0 3rem;
+       gap: 1rem;
+    }
+    
+    .texto__titulo {
+        font-size: 38px;
+        line-height: 55px;
+        padding: 0;
+        margin-top: 2rem; 
+    }
+    
+    .texto__descriçao {
+        text-align: start;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        margin: 0 2rem 0 0;
+    }
+    
+    .botao__registro {
+        font-size: 15px;
+        padding: 0.8rem 3.6rem;
+    }
+    
+    .linha__imagem {
+        margin: 9rem 0 1rem 20rem;
+    }
+    
+    .imagem__redes {
+        width: 2.3vw;
+        padding: 0 0.3em;
     }
 }
